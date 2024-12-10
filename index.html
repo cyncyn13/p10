@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p10_card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+    *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .alegreya-sans-regular {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .card_profile{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 550px;
+        background-color:#F8FE8F;
+    }
+    .card_profile .profile{
+        display: flex;
+        margin: 0 0 7px 0;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        width: 170px;
+        height: 240px;
+    }
+    .card_profile header{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        width: 100%;
+    }
+    .card_profile header h1{
+        margin: 0 0 7px 0;
+        text-align: center;
+        font-size: 33px;
+    }
+    .card_profile header p{
+        margin: 0 0 7px 0;
+        text-align: center;
+        font-size: 33px;
+    }
+    .card_profile header h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_profile footer{
+        border-top: 1px solid black;
+        padding: 20px 20px 0 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_profile footer h3{
+        font-size: 15px;
+    }
+    .card_profile footer .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .card_flat{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        width: 287px;
+        height: 282px;
+        background-color:#1F9370;
+    }
+    .card_flat h1{
+        font-size: 50px;
+
+    }
+    .card_flat h2{
+        font-size: 20px;
+    }
+    .card_flat header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-grow: 1;
+        width: 100%;
+    }
+    .card_flat header .icon{
+        width: 30px;
+        height: 30px;
+
+    }
+    .card_flat footer .profile{
+        width: 20px;
+        height: 20px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="card_profile">
+        <header>
+            <div class="profile">
+                <img src="img/img.png" alt="">
+            </div>
+            <div class="headers"></div>
+               <h1 class="marcellus-regular">Dean Ambrose</h1>
+               <p class="marcellus-regular">~</p>
+               <h2 class="alegreya-sans-regular">Financial Advisor<br>
+                   London,Uk</h2>
+        </header>
+        <footer>
+            <h3>5.0 Rated by Clients</h3>
+            <div class="icon">
+                <img src="img/Group 1.svg" alt="">
+            </div>
+        </footer>
+
+    </div>
+    <div class="card_flat">
+        <header>
+            <div class="icon">
+                    <img src="img/icon.svg" alt="">
+                </div>
+                <div class="headers">
+            <h1 class="marcellus-regular">4.2%</h1>
+            <h2 class="alegreya-sans-regular">Growth On Yearly
+                Average</h2>
+            </div>
+        </header>
+        <footer>
+            <div class="footer">
+                <img src="img/Footer.svg" alt="">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
